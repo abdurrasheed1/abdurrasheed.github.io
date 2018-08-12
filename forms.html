@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <title>Html forms</title>
+  <meta charset="utf-8">
+  <style media="screen">
+    form {
+      font-size: 20px;
+    }
+
+    input {
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Register here</h1>
+  </header>
+  <nav>
+    <a href="www.google.com"></a>
+  </nav>
+  <footer>
+    <p>Website made with love</p>
+  </footer>
+  <form method="post">
+    First Name: <input type="text" name="first name"><br>
+    Last Name: <input type="text" name="last name"><br>
+    Email: <input type="email" name="email" required> <br>
+    Password: <input type="password" min="8" name="password"><br>
+    Birthday:<input type="date" name="Birthday"><br>
+    Gender : <br>
+    <input type="radio" name="Gender" value="Male">Male <br>
+    <input type="radio" name="Gender" value="Female">Female <br>
+    <input type="radio" name="Gender" value="Others">Others <br> Pets: <br>
+    <input type="checkbox" name="cats" value="cats">Cats<br><br>
+    <input type="checkbox" name="dog" value="dogs">Dogs <br><br> Cars: <br>
+    <select>
+      <option value="volvo" name="volvo" value="volvo">volvo</option>
+      <option value="Audi" name="audi" value="Audi">Audi</option><br><br>
+
+    </select>
+    <br><br> Gender:
+    <p>select from below alternatives</p>
+    <select>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Others">Others</option>
+    </select><br><br>
+    <input type="submit" value="Click here to Register!">
+    <input type="reset">
+  </form>
+</body>
+
+</html>
+? first+name=fake &last+name=main &email=xyz%40example.com &password=123456 &Birthday=2018-08-10 &Gender=on &cats=on
